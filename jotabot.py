@@ -10,6 +10,7 @@ def fetch_config():
     return config
 
 bot = commands.Bot(command_prefix="j!")
+config = fetch_config()
 
 @bot.event
 async def on_ready():

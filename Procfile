@@ -1,1 +1,1 @@
-worker: python3 jotabot.py
+worker: python jotabot.py

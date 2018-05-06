@@ -27,5 +27,18 @@ async def ping(ctx):
 async def say(ctx, * ,msg):
 
     await ctx.send (msg)
+    
+@bot.command ()
+async def math (ctx,a:int,b,c:int):
+    if b== '+':
+        await ctx.send (a+c)
+    if b== "-":
+        await ctx.send (a-c)
+    if b== "*":
+        await ctx.send (a*c)
+    if b== "/":
+        await ctx.send (a/c)
+
+    
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

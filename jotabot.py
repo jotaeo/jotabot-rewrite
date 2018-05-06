@@ -22,5 +22,10 @@ async def on_ready():
 @bot.command()
 async def ping(ctx):
     await ctx.send(f"Pong! `{bot.latency}`")
-  
+    
+@bot.command()
+async def say(ctx, * ,msg):
+
+    await ctx.send (msg)
+
 bot.run(config["TOKEN"], bot=True, reconnect=True)

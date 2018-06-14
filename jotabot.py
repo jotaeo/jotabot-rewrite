@@ -39,6 +39,10 @@ async def math (ctx,a:int,b,c:int):
     if b== "/":
         await ctx.send (a/c)
 
+        
+@bot.command ()
+async def shrug (ctx):
+    await ctx.send ("¯\_(ツ)_/¯")
     
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

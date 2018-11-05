@@ -55,7 +55,7 @@ async def Info (ctx):
     await ctx.send ("help commands ``a!help``")
     
 @bot.command()
-async def kimi wane (ctx):
+async def kimiwane (ctx):
     await ctx.send ("*tashikani ano toki watashi no sonara ni ita*")
     await ctx.send  ("*Itsudatte itsudatte itsudatte sugu yoko de waratte ita*")
     await ctx.send  ("*Naku shite mo torimodosu kimi wo* ``I will never leave you``")

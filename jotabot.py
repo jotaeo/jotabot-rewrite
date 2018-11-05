@@ -48,5 +48,11 @@ async def shrug (ctx):
 async def test2 (ctx):
     await ctx.send ("Git test")
     
+@bot.command ()
+async def Info (ctx):
+    await ctx.send ("Bot name: aigisbot")
+    await ctx.send ("code used : python , discord.py rewrite")
+    await ctx.send ("help commands ``a!help``")
+    
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

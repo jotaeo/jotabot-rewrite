@@ -9,7 +9,7 @@ def fetch_config():
     config = json.load(config_file)
     return config
 
-bot = commands.Bot(command_prefix="j!")
+bot = commands.Bot(command_prefix="a!")
 config = fetch_config()
 
 @bot.event

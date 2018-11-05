@@ -59,5 +59,10 @@ async def kimiwane (ctx):
     await ctx.send ("*tashikani ano toki watashi no sonara ni ita*")
     await ctx.send  ("*Itsudatte itsudatte itsudatte sugu yoko de waratte ita*")
     await ctx.send  ("*Naku shite mo torimodosu kimi wo* ``I will never leave you``")
+    
+@bot.command()
+async def yamete (ctx):
+    await ctx.send ("*yamete kudastop*")
+    
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

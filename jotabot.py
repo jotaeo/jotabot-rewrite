@@ -44,5 +44,9 @@ async def math (ctx,a:int,b,c:int):
 async def shrug (ctx):
     await ctx.send ("¯\_(ツ)_/¯")
     
+@bot.command ()
+async def test2 (ctx):
+    await ctx.send ("Git test")
+    
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

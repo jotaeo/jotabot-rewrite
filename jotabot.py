@@ -54,5 +54,10 @@ async def Info (ctx):
     await ctx.send ("code used : python , discord.py rewrite")
     await ctx.send ("help commands ``a!help``")
     
+@bot.command()
+async def kimi wane (ctx):
+    await ctx.send ("*tashikani ano toki watashi no sonara ni ita*")
+    await ctx.send  ("*Itsudatte itsudatte itsudatte sugu yoko de waratte ita*")
+    await ctx.send  ("*Naku shite mo torimodosu kimi wo* ``I will never leave you``")
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

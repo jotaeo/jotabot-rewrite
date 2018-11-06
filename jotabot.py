@@ -81,7 +81,7 @@ async def help (ctx):
     await ctx.send ("a!info : shows basic info of the bot")
     
 @bot.command()
-async def "pingtest"(ctx,a):
+async def pingtest (ctx,a):
     await asyncio.sleep(a)
     await ctx.send(ctx.author.mention)
     

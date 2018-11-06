@@ -84,13 +84,12 @@ async def help (ctx):
 async def pingtest (ctx,a:int,b:int):
     if b == "s":
         await asyncio.sleep(a)
-        
-        await ctx.send(ctx.author.mention)
+
     if b == "min":
         
         await asyncio.sleep(a*60)
               
-        await ctx.send(ctx.author.mention)
+    await ctx.send(ctx.author.mention)
         
 @bot.command()
 async def embed (ctx):

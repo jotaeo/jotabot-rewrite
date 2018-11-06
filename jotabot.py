@@ -63,6 +63,8 @@ async def kimiwane (ctx):
 @bot.command()
 async def yamete (ctx):
     await ctx.send ("*yamete kudastop*")
+ 
+bot.remove_command('help')
     
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

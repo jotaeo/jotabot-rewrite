@@ -84,10 +84,12 @@ async def help (ctx):
 async def pingtest (ctx,a:int,b):
     if b == "s":
         await asyncio.sleep(a)
+        
+        await ctx.send(ctx.author.mention)
     if b == "min":
         await asyncio.sleep(a*60)
               
-    await ctx.send(ctx.author.mention)
+        await ctx.send(ctx.author.mention)
     
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

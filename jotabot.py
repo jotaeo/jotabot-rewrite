@@ -32,8 +32,6 @@ async def say(ctx, * ,msg):
 async def math (ctx,a:int,b,c:int):
     if a == "9" and b == "+" and c == "10":
         await ctx.send ("21")
-    if b== '+':
-        await ctx.send (a+c)
     if b== "-":
         await ctx.send (a-c)
     if b== "*":

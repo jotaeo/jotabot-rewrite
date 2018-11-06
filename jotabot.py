@@ -97,16 +97,12 @@ async def embed (ctx):
     await ctx.send(embed=embed)
     
 @bot.commands()
-async def orgia (ctx):
-    z= yes 
+async def orgia (ctx,a):
+    a= yes 
 
     
-    while z == "yes":
+    while a == "yes":
         await ctx.send ("@Shibu#8658")
-    
-@bot.commands ()
-async def shutdown (ctx):
-    z=no
     
   
 

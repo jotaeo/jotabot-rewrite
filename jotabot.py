@@ -101,8 +101,8 @@ async def orgia (ctx):
     z= yes 
 
     
-while z == "yes":
-    await ctx.send ("@Shibu#8658")
+    while z == "yes":
+        await ctx.send ("@Shibu#8658")
     
 @bot.commands ()
 async def shutdown (ctx):

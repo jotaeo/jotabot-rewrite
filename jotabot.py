@@ -96,13 +96,7 @@ async def embed (ctx):
     embed.add_field(name="Nme of second command", value="aaaaa")
     await ctx.send(embed=embed)
     
-@bot.commands()
-async def orgia (ctx,a):
-    a= yes 
 
-    
-    while a == "yes":
-        await ctx.send ("@Shibu#8658")
     
   
 

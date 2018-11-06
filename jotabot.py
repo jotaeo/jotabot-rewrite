@@ -85,7 +85,7 @@ async def pingtest (ctx,a:int,b):
     if b == "s":
         await asyncio.sleep(a)
     if b == "min":
-        await asyncio.sleep(a/60)
+        await asyncio.sleep(a*60)
               
     await ctx.send(ctx.author.mention)
     

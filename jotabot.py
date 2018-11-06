@@ -65,6 +65,16 @@ async def yamete (ctx):
     await ctx.send ("*yamete kudastop*")
  
 bot.remove_command('help')
+
+@bot.command()
+async def help (ctx): 
+    await ctx.send ("a!math : a math command , be sure to add a space")
+    await ctx.send ("         between each variable , the follwing ")
+    await ctx.send ("         are the commands you can use with it:")
+    await ctx.send ("                  + : addition")
+    await ctx.send ("                  - : subtraction")
+    await ctx.send ("                  / : division")
+    await ctx.send ("                  * : multiplication") 
     
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

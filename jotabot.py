@@ -91,6 +91,14 @@ async def pingtest (ctx,a:int,b:float):
         await asyncio.sleep(a/60)
               
         await ctx.send(ctx.author.mention)
+        
+@bot.command()
+async def embed (ctx):
+    embed = discord.Embed(title="Help")
+    embed.add_field(name="Name of command", value="Hellp mesaag")
+    embed.add_field(name="Nme of second command", value="aaaaa")
+    await ctx.send(embed=embed)
+
     
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

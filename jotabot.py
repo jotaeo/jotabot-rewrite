@@ -95,7 +95,19 @@ async def embed (ctx):
     embed.add_field(name="Name of command", value="Hellp mesaag")
     embed.add_field(name="Nme of second command", value="aaaaa")
     await ctx.send(embed=embed)
+    
+@bot.commands()
+async def orgia (ctx):
+    z= yes 
 
     
+while z == "yes":
+    await ctx.send ("@Shibu#8658")
+    
+@bot.commands ()
+async def shutdown (ctx):
+    z=no
+    
+  
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

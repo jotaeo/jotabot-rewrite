@@ -32,7 +32,7 @@ async def say(ctx, * ,msg):
 @bot.command ()
 async def math (ctx,a:int,b,c:int):
     if b == "+":
-        await ctx.send ("21")
+        await ctx.send (a+c)
     if b== "-":
         await ctx.send (a-c)
     if b== "*":
@@ -81,8 +81,12 @@ async def help (ctx):
     await ctx.send ("a!info : shows basic info of the bot")
     
 @bot.command()
-async def pingtest (ctx,a:int):
-    await asyncio.sleep(a)
+async def pingtest (ctx,a:int,b):
+    if b == "s":
+        await asyncio.sleep(a)
+    if b == "min":
+        await asyncio.sleep(a/60)
+              
     await ctx.send(ctx.author.mention)
     
 

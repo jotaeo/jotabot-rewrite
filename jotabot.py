@@ -87,7 +87,6 @@ async def timer (ctx,a:int,b,c):
         await asyncio.sleep(a)
         
     if b == "min":
-        a*60
         await ctx.send ("timer set for" , a , "minutes")
         await asyncio.sleep (a)
         

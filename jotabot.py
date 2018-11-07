@@ -81,13 +81,17 @@ async def help (ctx):
     await ctx.send ("a!info : shows basic info of the bot")
     
 @bot.command()
-async def timer (ctx,a:int,b):
+async def timer (ctx,a:int,b,c):
     if b == "s":
+        await ctx.send ("timer set for" , a ,"seconds")
         await asyncio.sleep(a)
-    if b == "min":
-        await asyncio.sleep (a*60)
         
-    await ctx.send(ctx.author.mention) 
+    if b == "min":
+        a*60
+        await ctx.send ("timer set for" , a , "minutes")
+        await asyncio.sleep (a)
+        
+    await ctx.send(ctx.author.mention , c)
         
 @bot.command()
 async def embed (ctx):

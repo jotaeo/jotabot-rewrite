@@ -88,7 +88,7 @@ async def timer (ctx,a:int,b):
         
     if b == "min":
         
-        await acyncio.sleep (a)
+        await acyncio.sleep(a*60)
         
     await ctx.send(ctx.author.mention)
         

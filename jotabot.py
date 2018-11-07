@@ -83,11 +83,9 @@ async def help (ctx):
 @bot.command()
 async def timer (ctx,a:int,b):
     if b == "s":
-        
         await acyncio.sleep(a)
         
     if b == "min":
-        
         await acyncio.sleep(a*60)
         
     await ctx.send(ctx.author.mention)

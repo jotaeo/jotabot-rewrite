@@ -109,7 +109,7 @@ async def Pingtest (a):
 async def pingtime (ctx,a:int,b):
     while b == "yes":
         await asyncio.sleep(a*60)
-        await ctx.send(ctx.author.mention)
+        await ctx.send(c)
     
 
     

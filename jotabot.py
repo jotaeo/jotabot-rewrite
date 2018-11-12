@@ -102,8 +102,15 @@ async def embed (ctx):
 @bot.command()
 async def Pingtest (a):
     await a.send(a.author.mention)
-    
 
+    
+    
+@bot.command()
+async def pingtime (ctx,a:int,b):
+    while b == "yes":
+        await asyncio.sleep(a*60)
+        await ctx.send(ctx.author.mention)
+    
 
     
   

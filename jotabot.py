@@ -102,6 +102,11 @@ async def embed (ctx):
 @bot.command()
 async def Pingtest (a):
     await a.send(a.author.mention)
+    
+@bot.command()
+async def pingtime (ctx,a):
+    await acyncio.sleep(a)
+    await ctx.send(a.author.mention)
 
     
   

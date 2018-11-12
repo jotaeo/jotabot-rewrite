@@ -97,6 +97,11 @@ async def embed (ctx):
     embed.add_field(name="Nme of second command", value="aaaaa")
     await ctx.send(embed=embed)
     
+    
+    
+@bot.command()
+async def Pingtest (ctx):
+    await ctx.send(ctx.author.mention)
 
     
   

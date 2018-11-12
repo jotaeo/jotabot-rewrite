@@ -106,10 +106,10 @@ async def Pingtest (a):
     
     
 @bot.command()
-async def pingtime (ctx,a:int,b):
+async def pingtime (ctx,a:int,b ,c):
     while b == "yes":
         await asyncio.sleep(a)
-        await ctx.send("@keewnu#0900")
+        await ctx.send(ctx.c.mention)
     
 
     

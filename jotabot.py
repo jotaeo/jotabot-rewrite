@@ -100,8 +100,8 @@ async def embed (ctx):
     
     
 @bot.command()
-async def Pingtest (ctx):
-    await ctx.send(ctx.author.mention)
+async def Pingtest (a):
+    await a.send(a.author.mention)
 
     
   

@@ -115,7 +115,8 @@ async def pingtime (ctx,a:int,b ,c):
         
 @bot.command()
 async def dm (ctx):
-    ctx.author.send ("test")
+    ctx.typing(5)
+    ctx.send("typing test")
   
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

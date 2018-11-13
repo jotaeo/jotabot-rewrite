@@ -111,8 +111,11 @@ async def pingtime (ctx,a:int,b ,c):
         await ctx.send(c)
         await asyncio.sleep(a)
         
-   
-    
+
+        
+@bot.command()
+async def vc (ctx):
+    await ctx.channel.connect()
   
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

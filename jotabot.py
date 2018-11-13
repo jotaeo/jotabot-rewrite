@@ -115,7 +115,7 @@ async def pingtime (ctx,a:int,b ,c):
         
 @bot.command()
 async def dm (ctx):
-    ctx.typing(5)
+    ctx.typing()
     ctx.send("typing test")
   
 

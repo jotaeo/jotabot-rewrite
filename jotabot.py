@@ -112,7 +112,6 @@ async def pingtime (ctx,a:int,b ,c):
         await ctx.send(c)
         await asyncio.sleep(a)
         
-
         
 @bot.command()
 async def dm (ctx):

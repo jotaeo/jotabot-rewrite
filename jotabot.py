@@ -114,8 +114,8 @@ async def pingtime (ctx,a:int,b ,c):
 
         
 @bot.command()
-async def vc (ctx):
-    await channel.connect()
+async def dm (ctx):
+    ctx.author.send ("test")
   
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

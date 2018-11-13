@@ -98,7 +98,7 @@ async def embed (ctx):
     await ctx.send(embed=embed)
     
     
-    
+@bot.command()    
 @commands.is_owner()
 async def only_me(self, ctx):
      await ctx.send(f'Hello {ctx.author.mention}. This command can only be used by you!!')

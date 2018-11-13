@@ -115,7 +115,7 @@ async def pingtime (ctx,a:int,b ,c):
         
 @bot.command()
 async def vc (ctx):
-    await ctx.channel.connect()
+    await channel.connect()
   
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

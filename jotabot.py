@@ -108,7 +108,7 @@ async def only_me(self, ctx):
     
 @bot.command()
 async def pingtime (ctx,a:int,check ,*,msg):
-    while b == "yes":
+    while  == "yes":
         await ctx.send(msg)
         await asyncio.sleep(a)
         

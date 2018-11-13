@@ -99,9 +99,10 @@ async def embed (ctx):
     
     
     
-@bot.command()
-async def Pingtest (a):
-    await a.send(a.author.mention)
+@commands.is_owner()
+async def only_me(self, ctx):
+     await ctx.send(f'Hello {ctx.author.mention}. This command can only be used by you!!')
+
 
     
     

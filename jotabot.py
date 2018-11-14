@@ -121,7 +121,7 @@ async def fuckyall (ctx,a):
         
 @bot.command()
 async def fuckyall (ctx,a:int,check,msg):
-    while  == "yes":
+    while msg == "yes":
         await ctx.send(msg)
         await asyncio.sleep(a)
   

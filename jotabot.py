@@ -109,7 +109,13 @@ async def embed (ctx):
 @bot.command()
 async def unflip(ctx,a):
     while a == "yes":
-        await ctx.send ("┬─┬ ノ( ゜-゜ノ)")
+        embed = discord.Embed(title="Help")
+        embed.add_field(name="┬─┬ ノ( ゜-゜ノ)", value="┬─┬ ノ( ゜-゜ノ)")
+        embed.add_field(name="┬─┬ ノ( ゜-゜ノ)", value="┬─┬ ノ( ゜-゜ノ)")
+        await ctx.send(embed=embed))
+        await ctx.send(embed=embed))
+        await ctx.send(embed=embed))
+        await ctx.send(embed=embed))
         
 
   

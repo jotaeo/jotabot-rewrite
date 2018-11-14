@@ -49,7 +49,6 @@ async def shrug (ctx):
 @bot.command ()
 async def test2 (ctx):
     await ctx.send ("Git test")
-    
 @bot.command ()
 async def Info (ctx):
     await ctx.send ("Bot name: aigisbot")

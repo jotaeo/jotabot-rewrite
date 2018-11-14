@@ -118,6 +118,12 @@ async def fuckyall (ctx,a):
     
     while a == "srsly":
         ctx.send("┬─┬ ノ( ゜-゜ノ)")
+        
+@bot.command()
+async def fuckyall (ctx,a:int,check,msg):
+    while  == "yes":
+        await ctx.send(msg)
+        await asyncio.sleep(a)
   
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

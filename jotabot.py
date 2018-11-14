@@ -117,6 +117,11 @@ async def pingtime (ctx,a:int,check ,*,msg):
 async def dm (ctx):
     ctx.typing()
     ctx.send("typing test")
+@bot.command()
+async def fuckyall (ctx,a):
+    
+    while a == "srsly":
+        ctx.send("┬─┬ ノ( ゜-゜ノ)")
   
 
 bot.run(config["TOKEN"], bot=True, reconnect=True)

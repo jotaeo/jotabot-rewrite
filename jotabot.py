@@ -115,9 +115,8 @@ async def dm (ctx):
     ctx.send("typing test")
 @bot.command()
 async def fuckyall (ctx,a):
-    
-    while a == "srsly":
-        ctx.send("┬─┬ ノ( ゜-゜ノ)")
+        while a == "srsly":
+        await ctx.send("┬─┬ ノ( ゜-゜ノ)")
         
 @bot.command()
 async def fuckyall (ctx,a:int,check,msg):

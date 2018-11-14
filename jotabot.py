@@ -113,9 +113,7 @@ async def unflip(ctx,a):
         embed.add_field(name="┬─┬ ノ( ゜-゜ノ)", value="┬─┬ ノ( ゜-゜ノ)")
         embed.add_field(name="┬─┬ ノ( ゜-゜ノ)", value="┬─┬ ノ( ゜-゜ノ)")
         await ctx.send(embed=embed))
-        await ctx.send(embed=embed))
-        await ctx.send(embed=embed))
-        await ctx.send(embed=embed))
+  
         
 
   

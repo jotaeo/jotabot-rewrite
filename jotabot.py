@@ -94,7 +94,7 @@ async def timer (ctx,a:int,b):
 async def embed (ctx):
     embed = discord.Embed(title="┬─┬ ノ( ゜-゜ノ")
     embed.add_field(name="┬─┬ ノ( ゜-゜ノ", value="┬─┬ ノ( ゜-゜ノ")
-    embed.add_field(name="Nme of second command", value="┬─┬ ノ( ゜-゜ノ")
+    embed.add_field(name="┬─┬ ノ( ゜-゜ノ", value="┬─┬ ノ( ゜-゜ノ")
     await ctx.send(embed=embed)
     
     

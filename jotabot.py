@@ -92,9 +92,9 @@ async def timer (ctx,a:int,b):
         
 @bot.command()
 async def embed (ctx):
-    embed = discord.Embed(title="Help")
-    embed.add_field(name="Name of command", value="Hellp mesaag")
-    embed.add_field(name="Nme of second command", value="aaaaa")
+    embed = discord.Embed(title="┬─┬ ノ( ゜-゜ノ")
+    embed.add_field(name="┬─┬ ノ( ゜-゜ノ", value="┬─┬ ノ( ゜-゜ノ")
+    embed.add_field(name="Nme of second command", value="┬─┬ ノ( ゜-゜ノ")
     await ctx.send(embed=embed)
     
     

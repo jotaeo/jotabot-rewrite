@@ -98,10 +98,7 @@ async def embed (ctx):
     await ctx.send(embed=embed)
     
     
-@bot.command()    
-@commands.is_owner()
-async def only_me(self, ctx):
-     await ctx.send(f'Hello {ctx.author.mention}. This command can only be used by you!!')
+
 
 
     
@@ -110,13 +107,9 @@ async def only_me(self, ctx):
         
         
 @bot.command()
-async def dm (ctx):
-    ctx.typing()
-    ctx.send("typing test")
-@bot.command()
-async def fuckyall (ctx,a):
-        while a == "srsly":
-        await ctx.send("┬─┬ ノ( ゜-゜ノ)")
+async def unflip(ctx,a):
+    while a == "yes":
+        await ctx.send ("┬─┬ ノ( ゜-゜ノ)")
         
 
   

@@ -110,6 +110,13 @@ async def unflip(ctx,a):
     while a == "yes":
         await ctx.send("``┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ``")
         await ctx.send("``┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ┬─┬ ノ( ゜-゜ノ``")
+        
+@bot.command()
+async def sleep(ctx,a,b):
+    while a == "yes":
+        await ctx.send(b,"sleep")
+        await ctx.send(b,"sleep")
+  
   
         
 

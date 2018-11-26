@@ -99,8 +99,8 @@ async def embed (ctx):
     
 @bot.command()
 async def cookie (ctx,a:int):
-    await asyncio.sleep(a)
-    await ctx.send(ctx.author.mention)
+    await asyncio.sleep(5)
+    await ctx.send(ctx.author.mention,"your cookie is ready")
     
 
         

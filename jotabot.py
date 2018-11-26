@@ -100,7 +100,10 @@ async def embed (ctx):
 
 
 
-    
+@bot.command()
+async def cookie (ctx):
+    await acyncio.sleep(5)
+    await ctx.send (ctx.author.mention)
     
 
         

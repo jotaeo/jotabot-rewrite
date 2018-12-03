@@ -20,7 +20,7 @@ async def on_ready():
     print(bot.user.id)
     print('------')
 
-@bot.command()
+    @bot.command()
 async def ping(ctx):
     await ctx.send(f"Pong! `{bot.latency}`")
     
@@ -103,7 +103,6 @@ async def cookie (ctx,a:int):
     await ctx.send(ctx.author.mention)
     
 
-        
         
 @bot.command()
 async def unflip(ctx,a):

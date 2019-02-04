@@ -79,15 +79,7 @@ async def help (ctx):
     await ctx.send ("a!ping : shows ping of the bot server")
     await ctx.send ("a!info : shows basic info of the bot")
     
-@bot.command()
-async def timer (ctx,a:int,b):
-    if b == "s":
-        await acyncio.sleep(a)
-        
-    if b == "min":
-        await acyncio.sleep(a*60)
-        
-    await ctx.send(ctx.author.mention)
+
         
 @bot.command()
 async def embed (ctx):

@@ -114,7 +114,7 @@ async def unflip(ctx,a):
 async def sleep(ctx,a,b):
     while a == "yes":
         await ctx.send(b,"sleep")
-        await ctx.send(b,"sleep")
+        
   
   
         

@@ -56,13 +56,13 @@ async def Info (ctx):
     await ctx.send ("help commands ``a!help``")
     
 @bot.command()
-async def kimiwane (ctx):
+async def lesbian (ctx):
     await ctx.send ("*tashikani ano toki watashi no sonara ni ita*")
     await ctx.send  ("*Itsudatte itsudatte itsudatte sugu yoko de waratte ita*")
     await ctx.send  ("*Naku shite mo torimodosu kimi wo* ``I will never leave you``")
     
 @bot.command()
-async def yamete (ctx):
+async def gay (ctx):
     await ctx.send ("*yamete kudastop*")
  
 bot.remove_command('help')

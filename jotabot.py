@@ -79,6 +79,10 @@ async def help (ctx):
     await ctx.send ("a!ping : shows ping of the bot server")
     await ctx.send ("a!info : shows basic info of the bot")
     
+    
+@bot.command()
+async def marry(ctx):
+    ctx.send(">acceptmarriage @Jota#1137")
 
         
 
